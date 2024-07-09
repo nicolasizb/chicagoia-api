@@ -9,7 +9,6 @@ function getFormattedDate(date) {
     const day = String(date.getDate()).padStart(2, '0');
     return `${year}-${month}-${day}`;
 }
-
 function getDateRange() {
     const today = new Date();
     const last30Days = new Date(today);
