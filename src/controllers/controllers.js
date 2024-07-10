@@ -18,7 +18,6 @@ function getDateRange() {
         until: getFormattedDate(today)
     };
 }
-
 async function getAccounts(req, res) {
     try {
         const response = await axios.get(`${API_URL}/me/adaccounts`, {
